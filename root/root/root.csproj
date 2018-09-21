@@ -5,4 +5,16 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.42.0" />
+    <PackageReference Include="EntityFramework" Version="6.1.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RootLib1\RootLib1.csproj" />
+    <ProjectReference Include="..\RootLib2\RootLib2.csproj" />
+    <ProjectReference Include="..\SharedLib\SharedLib.csproj" />
+  </ItemGroup>
+
 </Project>
